@@ -1,0 +1,29 @@
+{
+  "name": "eng-lang",
+  "version": "1.0.0",
+  "description": "Get the language for the current environment (node or browser)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "browserify": "browserify test/test.js -o test/built.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonhorst/javascript-environment-lang.git"
+  },
+  "keywords": [
+    "lang",
+    "language",
+    "isomorphic"
+  ],
+  "author": "@brandonhorst",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonhorst/javascript-environment-lang/issues"
+  },
+  "homepage": "https://github.com/brandonhorst/javascript-environment-lang",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
+  }
+}
