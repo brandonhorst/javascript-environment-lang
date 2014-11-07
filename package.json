@@ -1,5 +1,5 @@
 {
-  "name": "eng-lang",
+  "name": "env-lang",
   "version": "1.0.0",
   "description": "Get the language for the current environment (node or browser)",
   "main": "index.js",
